@@ -18,6 +18,7 @@ public class AddressBook {
 			if(boddy.getName()==name) {
 				deletBuddy=boddy;
 				list.remove(boddy);
+				System.out.println("The system removed: " + deletBuddy.getName()+"'s information.");
 				break;
 			}
 		}
@@ -26,6 +27,9 @@ public class AddressBook {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("AddressBook");
+		AddressBook newBook = new AddressBook();
+		newBook.addBuddy("Beck", "1833 Riveriside");
+		newBook.removeBuddy("Beck");
 	}
 
 }
