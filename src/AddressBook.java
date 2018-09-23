@@ -27,9 +27,11 @@ public class AddressBook {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("AddressBook");
-		AddressBook newBook = new AddressBook();
-		newBook.addBuddy("Beck", "1833 Riveriside");
-		newBook.removeBuddy("Beck");
+		AddressBook addressBook = new AddressBook();
+		addressBook.addBuddy("Beck", "1833 Riveriside");
+		addressBook.removeBuddy("Beck");
+		addressBook.addBuddy("Zhang", "1833 Riveriside");
+		addressBook.removeBuddy("Zhang");
 	}
 
 }
