@@ -32,6 +32,7 @@ public class AddressBook {
 		addressBook.removeBuddy("Beck");
 		addressBook.addBuddy("Zhang", "1833 Riveriside");
 		addressBook.removeBuddy("Zhang");
+		addressBook.addBuddy("BeckZ", "123 Riverside Dr");
 	}
 
 }
